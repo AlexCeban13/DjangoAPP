@@ -1,0 +1,14 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: alexceban1998@gmail.com
+Date: Tue, 22 Nov 2022 15:35:27 -0000
+Message-ID: <166913132748.81225.2250383169551192950@Alexs-MacBook-Pro.local>
+
+
+Someone asked for password reset for email alexceban1998@gmail.com.Follow the Link below
+http://localhost:8000{% url "djangoapp:password_reset_confirm"
+uidb64=uid token=token %}
+-------------------------------------------------------------------------------
