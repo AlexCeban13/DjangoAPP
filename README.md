@@ -2,19 +2,31 @@
 
 Clone the repo 
 
-Install virtual env:  alexceban@Alexs-MacBook-Pro DjangoAPP % python3 -m venv djangoenv  
+Install virtual env:  alexceban@Alexs-MacBook-Pro DjangoAPP % 
 
-Start virtual env:  alexceban@Alexs-MacBook-Pro DjangoAPP % source .venv/bin/activate
+$ python3 -m venv djangoenv  
 
-Install requirement.txt file: (.venv) alexceban@Alexs-MacBook-Pro DjangoAPP % pip install -r requirements.txt
+Start virtual env:  alexceban@Alexs-MacBook-Pro DjangoAPP % 
+$ source .venv/bin/activate
 
-Change directory to src: (.venv) alexceban@Alexs-MacBook-Pro DjangoAPP % cd src
+Install requirement.txt file: (.venv) alexceban@Alexs-MacBook-Pro DjangoAPP % 
 
-Run server: (.venv) alexceban@Alexs-MacBook-Pro DjangoAPP % pip install -r requirements.txt
+$pip3 install -r requirements.txt
 
-(if admin page is missing the css styling) : (.venv) alexceban@Alexs-MacBook-Pro src % python3 manage.py collectstatic
+Change directory to src: (.venv) alexceban@Alexs-MacBook-Pro DjangoAPP % 
+
+$ cd src
+
+Run server: (.venv) alexceban@Alexs-MacBook-Pro DjangoAPP % 
+
+$ pip3 manage.py runserver
+
+(if admin page is missing the css styling) : (.venv) alexceban@Alexs-MacBook-Pro src % 
+
+$ python3 manage.py collectstatic
 
 Navigate to the localhost: http://localhost:8000/admin/
+
 sent_emails folder will contain the request to the reset-password 
 
 When submitting a contact form: 
