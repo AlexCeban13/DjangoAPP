@@ -21,13 +21,34 @@ Change directory to src: (.venv) alexceban@Alexs-MacBook-Pro DjangoAPP %
 
     $ cd src
 
+Initialize databases: (.venv) alexceban@Alexs-MacBook-Pro src% 
+
+    $ python3 manage.py migrate
+
 Run server: (.venv) alexceban@Alexs-MacBook-Pro src% 
 
-    $ pip3 manage.py runserver
+    $ python3 manage.py runserver
 
 (if admin page is missing the css styling) : (.venv) alexceban@Alexs-MacBook-Pro src % 
 
     $ python3 manage.py collectstatic
+
+Create superuser admin to manage the underlying databases and access the admin page
+
+    $ python3 manage.py createsuperuser
+<p>
+Enter your desired username and press enter.<br>
+
+Username: admin<br>
+You will then be prompted for your desired email address:<br>
+
+Email address: admin@example.com<br>
+The final step is to enter your password. You will be asked to enter your password twice, the second time as <br>a confirmation of the first.<br>
+
+Password: **********<br>
+Password (again): *********<br>
+Superuser created successfully.<br>
+</p>
 
 <p>Navigate to the localhost admin page: http://localhost:8000/admin/</p>
 <p>Navigate to the localhost register page to begin: http://localhost:8000/register</p>
