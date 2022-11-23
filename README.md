@@ -87,10 +87,14 @@ join activity on user_activity WHERE user_activity.activity_id = activity.id<br>
 group by user_id, activity_id<br>
 </p>
 
+<p> Add Functionality: a user can register, log in, log out, edit his information like first name, last name, email address. User can reset his password. User can contact the company via a contact form and using his email.</p>
 
 
 
 
-*Problems to be fixed, cache management (I am still able to go back after logout) is not implementd, testing is not implemented.
+*Problems to be fixed, 
+cache management (I am still able to go back after logout) is not implementd, 
+testing is not implemented, 
+fully imnplementing the email communication feature.*
 
 
