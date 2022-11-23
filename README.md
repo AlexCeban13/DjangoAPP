@@ -48,6 +48,11 @@ The final step is to enter your password. You will be asked to enter your passwo
 Password: **********<br>
 Password (again): *********<br>
 Superuser created successfully.<br>
+    
+Run server: (.venv) alexceban@Alexs-MacBook-Pro src% 
+
+    $ python3 manage.py runserver    
+    
 </p>
 
 <p>Navigate to the localhost admin page: http://localhost:8000/admin/</p>
