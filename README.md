@@ -1,35 +1,35 @@
 # DjangoAPP
-
+Instruction to run application on your local machine.
 Clone the repo 
 
 Templates/Frameworks used:
 Django4,Boostrap5,SQL
 
-Install virtual env:  alexceban@Alexs-MacBook-Pro DjangoAPP % 
+Install virtual env:  username@Alexs-MacBook-Pro DjangoAPP % 
 
     $ python3 -m venv djangoenv  
 
-Start virtual env:  alexceban@Alexs-MacBook-Pro DjangoAPP % 
+Start virtual env:  username@Alexs-MacBook-Pro DjangoAPP % 
 
     $ source .venv/bin/activate
 
-Install requirement.txt file: (.venv) alexceban@Alexs-MacBook-Pro DjangoAPP % 
+Install requirement.txt file: (.venv) username@Alexs-MacBook-Pro DjangoAPP % 
 
     $pip3 install -r requirements.txt
 
-Change directory to src: (.venv) alexceban@Alexs-MacBook-Pro DjangoAPP % 
+Change directory to src: (.venv) username@Alexs-MacBook-Pro DjangoAPP % 
 
     $ cd src
 
-Initialize databases: (.venv) alexceban@Alexs-MacBook-Pro src% 
+Initialize databases: (.venv) username@Alexs-MacBook-Pro src% 
 
     $ python3 manage.py migrate
 
-Run server: (.venv) alexceban@Alexs-MacBook-Pro src% 
+Run server: (.venv) username@Alexs-MacBook-Pro src% 
 
     $ python3 manage.py runserver
 
-(if admin page is missing the css styling) : (.venv) alexceban@Alexs-MacBook-Pro src % 
+(if admin page is missing the css styling) : (.venv) username@Alexs-MacBook-Pro src % 
 
     $ python3 manage.py collectstatic
 
@@ -49,7 +49,7 @@ Password: **********<br>
 Password (again): *********<br>
 Superuser created successfully.<br>
     
-Run server: (.venv) alexceban@Alexs-MacBook-Pro src% 
+Run server: (.venv) username@Alexs-MacBook-Pro src% 
 
     $ python3 manage.py runserver    
     
